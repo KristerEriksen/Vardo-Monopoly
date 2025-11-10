@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/game.css">
+    <script type="module" src="js/inGame.js" defer></script>
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+</head>
+<body>
+    <img src="css/img/monopolyboard.jpg" id="backgroundIMG"> 
+    <img id="player1Img">
+    <img id="player2Img">
+    <img id="player3Img">
+    <img id="player4Img">
+    <div id="showDiceDiv">
+        <h1 id="showDice"></h1>
+    </div>
+    <div id="outputBox">
+        <h1 id="outputText"></h1>
+    </div>
+    <div id="balanceBox">
+        <h1 id="balP1"></h1>
+        <h1 id="balP2"></h1>
+        <h1 id="balP3"></h1>
+        <h1 id="balP4"></h1>
+    </div>
+
+    <h1 id="balanceText"></h1>
+    
+    <div id="auctionBox">
+        <h1 id="aucProperty">KANSAS DRIVE</h1>
+        <h1 id="playerTurnText">Player 1s turn to bid</h1>
+        <h1 id="auctionPrice">$0</h1>
+        <button class="moneyButtons" id="1Button" disabled>1</button>
+        <button class="moneyButtons" id="20Button" disabled>20</button>
+        <button class="moneyButtons" id="50Button" disabled>50</button>
+        <button class="moneyButtons" id="100Button" disabled>100</button>
+        <button id="bidButton" disabled>BID</button>
+        <button id="foldButton" disabled>FOLD</button>
+        <button id="clearButton" disabled>CLEAR</button>
+    </div>
+    
+    <div id="actionButDiv">
+        <button id="resetButton" class="actionButtons">Reset Player</button>
+        <button id="rollButton" class="actionButtons">Roll dice</button>
+        <button id="buyPropertyButton" class="actionButtons" disabled>buy property</button>
+        <button id="auctionButton" class="=actionButtons" disabled>Auction property</button>
+        <button id="jailCardButton" class="actionButtons" disabled>Use "Get out of jail freecard"</button>
+    </div>
+
+
+    <script>
+
+    </script>
+
+    
+</body>
+</html>

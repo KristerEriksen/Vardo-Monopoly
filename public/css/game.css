@@ -1,0 +1,130 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+#backgroundIMG {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+#player1Img {
+    width: 7%;
+    height: 7%;
+    transform: translate(-50%, -50%);
+    top: 95%;
+    left: 97%;
+    position: absolute;
+}
+
+#player2Img {
+    width: 7%;
+    height: 7%;
+    transform: translate(-50%, -50%);
+    top: 95%;
+    left: 95%;
+    position: absolute;
+}
+
+#player3Img {
+    width: 7%;
+    height: 7%;
+    transform: translate(-50%, -50%);
+    top: 95%;
+    left: 93%;
+    position: absolute;
+}
+
+#player4Img {
+    width: 7%;
+    height: 7%;
+    transform: translate(-50%, -50%);
+    top: 95%;
+    left: 91%;
+    position: absolute;
+}
+
+#actionButDiv {
+    top: 60%;
+    width: 30%;
+    left: 30%;
+    position: absolute;
+    border: 5px solid red;
+}
+
+
+#outputText{
+    word-wrap: break-word;     
+    overflow-wrap: break-word; 
+    margin: 0;
+}
+
+#outputBox {
+    display: flex;         
+    justify-content: center;
+    align-items: center;
+    text-align: center;         
+    overflow: hidden;  
+    position: relative;
+    border: 5px solid red;
+    width: 30%;
+    height: 30%;
+    top: 8%;
+    left: 55%;
+}
+
+
+
+#showDiceDiv{
+    border: 5px solid red;
+    width: 25%;
+    height: 5%;
+    position: relative;
+    top: 14%;
+    left: 14%;
+    display: flex;         
+    justify-content: center;
+    align-items: center;
+    text-align: center;         
+    overflow: hidden;  
+    position: relative;
+}
+
+#balanceText{
+    position: absolute;
+    top: 77%;
+    left: 15%;
+}
+
+#balanceBox{
+    border: 5px solid black;
+    position: relative;
+    left: 14%;
+    top: 12%;
+    width: 15%;
+}
+
+#jailCardButton{
+    opacity: 0;
+}
+#buyPropertyButton{
+    opacity: 0;
+}
+#auctionButton{
+    opacity: 0;
+}
+
+#auctionBox{
+    opacity: 0;
+    border: 5px solid red;
+    position: relative;
+    left: 40%;
+    width: 20%;
+    top: 10%;
+    background-color: wheat;
+}

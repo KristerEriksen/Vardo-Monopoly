@@ -1,0 +1,98 @@
+[
+  {
+    "cardNumb": 1,
+    "cardValue": "Advance to 'Go'. (Collect $200)",
+    "Action": "Go",
+    "Value": null
+  },
+  {
+    "cardNumb": 2,
+    "cardValue": "Bank error in your favor. Collect $200.",
+    "Action": "Collect",
+    "Value": 200
+  },
+  {
+    "cardNumb": 3,
+    "cardValue": "Doctor's fees. Pay $50.",
+    "Action": "Pay",
+    "Value": 50
+  },
+  {
+    "cardNumb": 4,
+    "cardValue": "From sale of stock you get $50.",
+    "Action": "Collect",
+    "Value": 50
+  },
+  {
+    "cardNumb": 5,
+    "cardValue": "Get out of jail free card",
+    "Action": "freeJailCard",
+    "Value": null
+  },
+  {
+    "cardNumb": 6,
+    "cardValue": "Go to jail. Go directly to jail. Do not pass Go, Do not collect $200.",
+    "Action": "goToJail",
+    "Value": null
+  },
+  {
+    "cardNumb": 7,
+    "cardValue": "Grand Opera Night. Collect $50 from every player for opening night seats",
+    "Action": "collectAll",
+    "Value": 50
+  },
+  {
+    "cardNumb": 8,
+    "cardValue": "Income tax refund. Collect $20.",
+    "Action": "Collect",
+    "Value": 20
+  },
+  {
+    "cardNumb": 9,
+    "cardValue": "It is your birthday. Collect $10 from every player.",
+    "Action": "collectAll",
+    "Value": 10
+  },
+  {
+    "cardNumb": 10,
+    "cardValue": "Life insurance matures – Collect $100",
+    "Action": "Collect",
+    "Value": 100
+  },
+  {
+    "cardNumb": 11,
+    "cardValue": "Hospital Fees. Pay $50.",
+    "Action": "Pay",
+    "Value": 50
+  },
+  {
+    "cardNumb": 12,
+    "cardValue": "School fees. Pay $50.",
+    "Action": "Pay",
+    "Value": 50
+  },
+  {
+    "cardNumb": 13,
+    "cardValue": "Receive $25 consultancy fee.",
+    "Action": "Collect",
+    "Value": 25
+  },
+  {
+    "cardNumb": 14,
+    "cardValue": "You are assessed for street repairs: Pay $40 per house and $115 per hotel you own.",
+    "Action": "Pay",
+    "Value": null
+  },
+  {
+    "cardNumb": 15,
+    "cardValue": "You have won second prize in a beauty contest. Collect $10.",
+    "Action": "Collect",
+    "Value": 10
+  },
+  {
+    "cardNumb": 16,
+    "cardValue": "You inherit $100.",
+    "Action": "Collect",
+    "Value": 100
+  }
+]

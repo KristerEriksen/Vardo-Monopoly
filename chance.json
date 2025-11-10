@@ -1,0 +1,86 @@
+[
+  {
+    "cardNumb": 1,
+    "cardValue": "Advance to \"Go\". (Collect $200)",
+    "Action": "move",
+    "Value": "Go"
+  },
+  {
+    "cardNumb": 2,
+    "cardValue": "Advance to Illinois Avenue. If you pass Go, collect $200.",
+    "Action": "move",
+    "Value": "Illinois Avenue"
+  },
+  {
+    "cardNumb": 3,
+    "cardValue": "Advance to St. Charles Place. If you pass Go, collect $200.",
+    "Action": "move",
+    "Value": "Advance to St. Charles Place"
+  },
+  {
+    "cardNumb": 4,
+    "cardValue": "Advance token to the nearest Utility. If unowned, you may buy it from the Bank. If owned, throw dice and pay owner a total 10 times the amount thrown.",
+    "Action": "moveNearest",
+    "Value": "utility"
+  },
+  {
+    "cardNumb": 5,
+    "cardValue": "Advance to the nearest Railroad. If unowned, you may buy it from the Bank. If owned, pay owner twice the rent.",
+    "Action": "moveNearest",
+    "Value": "railroad"
+  },
+  {
+    "cardNumb": 6,
+    "cardValue": "Bank pays you dividend of $50.", 
+    "Action": "collect",
+    "Value": 50
+  },
+  {
+    "cardNumb": 7,
+    "cardValue": "Get out of Jail Free. This card may be kept until needed, traded, or sold.",
+    "Action": "getOutOfJailCard",
+    "Value": null
+  },
+  {
+    "cardNumb": 8,
+    "cardValue": "Go Back Three Spaces.",
+    "Action": "moveBack",
+    "Value": 3
+  },
+  {
+    "cardNumb": 9,
+    "cardValue": "Go to Jail. Go directly to Jail. Do not pass GO, do not collect $200.",
+    "Action": "goToJail",
+    "Value": null
+  },
+  {
+    "cardNumb": 10,
+    "cardValue": "Make general repairs on all your property: For each house pay $25, For each hotel $100.",
+    "Action": "repairs",
+    "Value": null
+  },
+  {
+    "cardNumb": 11,
+    "cardValue": "Take a trip to Reading Railroad. If you pass Go, collect $200.",
+    "Action": "move",
+    "Value": "Reading Railroad"
+  },
+  {
+    "cardNumb": 12,
+    "cardValue": "Advance to Boardwalk.",
+    "Action": "move",
+    "Value": "Boardwalk"
+  },
+  {
+    "cardNumb": 13,
+    "cardValue": "You have been elected Chairman of the Board. Pay each player $50.",
+    "Action": "payAll",
+    "Value": 50
+  },
+  {
+    "cardNumb": 14,
+    "cardValue": "Your building and loan matures. Receive $150.",
+    "Action": "collect",
+    "Value": 150
+  }
+]
