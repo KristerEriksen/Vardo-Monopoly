@@ -1,7 +1,7 @@
 import { type } from "os";
 import { json } from "stream/consumers";
-import cChest from "/Users/kriae/OneDrive/Programmering/Monopoly/cChest.json" with {type: "json"};
-import chanceCards from "/Users/kriae/OneDrive/Programmering/Monopoly/chance.json" with {type: "json"};
+import cChest from "/Users/kriae/OneDrive/Programmering/Monopoly/backend/cChest.json" with {type: "json"};
+import chanceCards from "/Users/kriae/OneDrive/Programmering/Monopoly/backend/chance.json" with {type: "json"};
 
 let figures = ["css/img/blåBrikke.png", "css/img/orgBrikke.png", "css/img/gronnBrikke.png", "css/img/lillaBrikke.png"]
 

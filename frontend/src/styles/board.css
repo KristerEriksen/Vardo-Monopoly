@@ -1,0 +1,9 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(11, 90px);
+  grid-template-rows: repeat(11, 90px);
+  width: 990px;
+  height: 990px;
+  background: #ddd;
+  border: 4px solid black;
+}
