@@ -1,86 +1,86 @@
 [
   {
     "cardNumb": 1,
-    "cardValue": "Advance to \"Go\". (Collect $200)",
-    "Action": "move",
-    "Value": "Go"
+    "cardValue": "Gå til \"Start\"",
+    "Action": "Go",
+    "Value": null
   },
   {
     "cardNumb": 2,
-    "cardValue": "Advance to Illinois Avenue. If you pass Go, collect $200.",
+    "cardValue": "Gå til \"Skolegata\"",
     "Action": "move",
-    "Value": "Illinois Avenue"
+    "Value": "Skolegata"
   },
   {
     "cardNumb": 3,
-    "cardValue": "Advance to St. Charles Place. If you pass Go, collect $200.",
+    "cardValue": "Gå til \"Vadsøgata\"",
     "Action": "move",
-    "Value": "Advance to St. Charles Place"
+    "Value": "Vadsøgata"
   },
   {
     "cardNumb": 4,
-    "cardValue": "Advance token to the nearest Utility. If unowned, you may buy it from the Bank. If owned, throw dice and pay owner a total 10 times the amount thrown.",
+    "cardValue": "Gå til \"Feskebruket\" eller \"Søppeldynga\" utifra ka som e nærmest",
     "Action": "moveNearest",
     "Value": "utility"
   },
   {
     "cardNumb": 5,
-    "cardValue": "Advance to the nearest Railroad. If unowned, you may buy it from the Bank. If owned, pay owner twice the rent.",
+    "cardValue": "Gå til nærmeste butikk utifra ka som e nærmest",
     "Action": "moveNearest",
     "Value": "railroad"
   },
   {
     "cardNumb": 6,
-    "cardValue": "Bank pays you dividend of $50.", 
+    "cardValue": "Du fant 100kr på gata",
     "Action": "collect",
-    "Value": 50
+    "Value": 100
   },
   {
     "cardNumb": 7,
-    "cardValue": "Get out of Jail Free. This card may be kept until needed, traded, or sold.",
+    "cardValue": "Sykemeldingskort fra jobb",
     "Action": "getOutOfJailCard",
     "Value": null
   },
   {
     "cardNumb": 8,
-    "cardValue": "Go Back Three Spaces.",
+    "cardValue": "Rygg tre gate tilbake",
     "Action": "moveBack",
     "Value": 3
   },
   {
     "cardNumb": 9,
-    "cardValue": "Go to Jail. Go directly to Jail. Do not pass GO, do not collect $200.",
+    "cardValue": "Du må på overtids arbeid",
     "Action": "goToJail",
     "Value": null
   },
   {
     "cardNumb": 10,
-    "cardValue": "Make general repairs on all your property: For each house pay $25, For each hotel $100.",
+    "cardValue": "Du må betale for søppeltømming 50kr per leilighet, 150kr per hus.",
     "Action": "repairs",
     "Value": null
   },
   {
     "cardNumb": 11,
-    "cardValue": "Take a trip to Reading Railroad. If you pass Go, collect $200.",
+    "cardValue": "Gå til \"123 Thai\"",
     "Action": "move",
-    "Value": "Reading Railroad"
+    "Value": "123 Thai"
   },
   {
     "cardNumb": 12,
-    "cardValue": "Advance to Boardwalk.",
+    "cardValue": "Gå til \"Vardøhus festning\"",
     "Action": "move",
-    "Value": "Boardwalk"
+    "Value": "Vardøhus Festning"
   },
   {
     "cardNumb": 13,
-    "cardValue": "You have been elected Chairman of the Board. Pay each player $50.",
+    "cardValue": "Din tur å spandere en runde øl på gutta betal vær spiller 100kr",
     "Action": "payAll",
-    "Value": 50
+    "Value": 100
   },
   {
     "cardNumb": 14,
-    "cardValue": "Your building and loan matures. Receive $150.",
+    "cardValue": "Du vant 200kr på skraplodd",
     "Action": "collect",
-    "Value": 150
+    "Value": 200
   }
 ]

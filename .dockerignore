@@ -1,0 +1,5 @@
+# Bygges/installeres inne i imaget — skal ikke kopieres inn fra maskinen
+**/node_modules
+frontend/dist
+.git
+.github

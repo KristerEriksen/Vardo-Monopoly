@@ -1,0 +1,32 @@
+# Avhengigheter (installeres på nytt, skal aldri committes)
+node_modules/
+
+# Bygg-output (bygges av Docker / vite)
+dist/
+build/
+
+# Miljøvariabler og hemmeligheter
+.env
+.env.*
+*.local
+
+# Logger
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vite-cache
+.vite/
+**/vite-cache/
+
+# OS- og editor-filer
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.sw?
+
+# Lokal verktøy-config
+.claude/

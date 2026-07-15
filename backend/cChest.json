@@ -1,98 +1,98 @@
 [
   {
     "cardNumb": 1,
-    "cardValue": "Advance to 'Go'. (Collect $200)",
+    "cardValue": "Gå til \"Start\"",
     "Action": "Go",
     "Value": null
   },
   {
     "cardNumb": 2,
-    "cardValue": "Bank error in your favor. Collect $200.",
+    "cardValue": "Han onkel fikk mye fangst på havet så du fikk en 500lapp",
+    "Action": "Collect",
+    "Value": 500
+  },
+  {
+    "cardNumb": 3,
+    "cardValue": "Du mesta pengboka å mesta 300kr",
+    "Action": "Pay",
+    "Value": 300
+  },
+  {
+    "cardNumb": 4,
+    "cardValue": "Du panta etter festen fra helga å fikk 200kr",
     "Action": "Collect",
     "Value": 200
   },
   {
-    "cardNumb": 3,
-    "cardValue": "Doctor's fees. Pay $50.",
-    "Action": "Pay",
-    "Value": 50
-  },
-  {
-    "cardNumb": 4,
-    "cardValue": "From sale of stock you get $50.",
-    "Action": "Collect",
-    "Value": 50
-  },
-  {
     "cardNumb": 5,
-    "cardValue": "Get out of jail free card",
+    "cardValue": "Sykemeldingskort fra jobb",
     "Action": "freeJailCard",
     "Value": null
   },
   {
     "cardNumb": 6,
-    "cardValue": "Go to jail. Go directly to jail. Do not pass Go, Do not collect $200.",
+    "cardValue": "Du må jobbe overtid på feskebruke",
     "Action": "goToJail",
     "Value": null
   },
   {
     "cardNumb": 7,
-    "cardValue": "Grand Opera Night. Collect $50 from every player for opening night seats",
-    "Action": "collectAll",
-    "Value": 50
+    "cardValue": "Du fikk en 100 lapp av ho besta",
+    "Action": "Collect",
+    "Value": 100
   },
   {
     "cardNumb": 8,
-    "cardValue": "Income tax refund. Collect $20.",
-    "Action": "Collect",
-    "Value": 20
+    "cardValue": "Du har bursdag så alle spelleran spandere en øl vært 100kr på dæ",
+    "Action": "collectAll",
+    "Value": 100
   },
   {
     "cardNumb": 9,
-    "cardValue": "It is your birthday. Collect $10 from every player.",
-    "Action": "collectAll",
-    "Value": 10
+    "cardValue": "Du fikk 300kr i erstatning etter jobbskaden",
+    "Action": "Collect",
+    "Value": 300
   },
   {
     "cardNumb": 10,
-    "cardValue": "Life insurance matures – Collect $100",
-    "Action": "Collect",
-    "Value": 100
+    "cardValue": "Du sklei på isen å måtte på legevakta 200kr",
+    "Action": "Pay",
+    "Value": 200
   },
   {
     "cardNumb": 11,
-    "cardValue": "Hospital Fees. Pay $50.",
+    "cardValue": "Du må betale barnebidrag på 300kr",
     "Action": "Pay",
-    "Value": 50
+    "Value": 300
   },
   {
     "cardNumb": 12,
-    "cardValue": "School fees. Pay $50.",
-    "Action": "Pay",
-    "Value": 50
+    "cardValue": "Du solgte et kg torsketonga å fikk 200kr",
+    "Action": "Collect",
+    "Value": 200
   },
   {
     "cardNumb": 13,
-    "cardValue": "Receive $25 consultancy fee.",
-    "Action": "Collect",
-    "Value": 25
+    "cardValue": "+150kr per hus.",
+    "Action": "collectPerHouse",
+    "Value": 150
   },
   {
     "cardNumb": 14,
-    "cardValue": "You are assessed for street repairs: Pay $40 per house and $115 per hotel you own.",
-    "Action": "Pay",
-    "Value": null
+    "cardValue": "Du fant en 100 lapp i sofaen på noppen",
+    "Action": "Collect",
+    "Value": 100
   },
   {
     "cardNumb": 15,
-    "cardValue": "You have won second prize in a beauty contest. Collect $10.",
+    "cardValue": "Huske du dem 200kr du lånte bort 2 mnd sia (nei det gjør du ikke) du fikk dem værtfall endelig tilbake",
     "Action": "Collect",
-    "Value": 10
+    "Value": 200
   },
   {
     "cardNumb": 16,
-    "cardValue": "You inherit $100.",
+    "cardValue": "Du fikk skattepengan tilbake. Motta 300kr",
     "Action": "Collect",
-    "Value": 100
+    "Value": 300
   }
 ]

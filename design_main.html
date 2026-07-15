@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="no">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vadsø Eiendomsspill — brett</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <meta name="ext-resource-dependency" content="images/123thai.jpg" data-resource-id="123thai" />
+  <meta name="ext-resource-dependency" content="images/abrahamsensgate.jpg" data-resource-id="abrahamsensgate" />
+  <meta name="ext-resource-dependency" content="images/batterigata.jpg" data-resource-id="batterigata" />
+  <meta name="ext-resource-dependency" content="images/festningen.jpg" data-resource-id="festningen" />
+  <meta name="ext-resource-dependency" content="images/finnmarksveien.jpg" data-resource-id="finnmarksveien" />
+  <meta name="ext-resource-dependency" content="images/gronnegata.jpg" data-resource-id="gronnegata" />
+  <meta name="ext-resource-dependency" content="images/havnegata.jpg" data-resource-id="havnegata" />
+  <meta name="ext-resource-dependency" content="images/idrettsgate.jpg" data-resource-id="idrettsgate" />
+  <meta name="ext-resource-dependency" content="images/idrettsveien.jpg" data-resource-id="idrettsveien" />
+  <meta name="ext-resource-dependency" content="images/kaigata.jpg" data-resource-id="kaigata" />
+  <meta name="ext-resource-dependency" content="images/kentbye.jpg" data-resource-id="kentbye" />
+  <meta name="ext-resource-dependency" content="images/kirkegata.jpg" data-resource-id="kirkegata" />
+  <meta name="ext-resource-dependency" content="images/perlarsensgate.jpg" data-resource-id="perlarsensgate" />
+  <meta name="ext-resource-dependency" content="images/romoveien.jpg" data-resource-id="romoveien" />
+  <meta name="ext-resource-dependency" content="images/sandtorget.jpg" data-resource-id="sandtorget" />
+  <meta name="ext-resource-dependency" content="images/sandvikveien.jpg" data-resource-id="sandvikveien" />
+  <meta name="ext-resource-dependency" content="images/skagveien.jpg" data-resource-id="skagveien" />
+  <meta name="ext-resource-dependency" content="images/skippergata.jpg" data-resource-id="skippergata" />
+  <meta name="ext-resource-dependency" content="images/skolegata.jpg" data-resource-id="skolegata" />
+  <meta name="ext-resource-dependency" content="images/sondrelanggate.jpg" data-resource-id="sondrelanggate" />
+  <meta name="ext-resource-dependency" content="images/steggelnesset.jpg" data-resource-id="steggelnesset" />
+  <meta name="ext-resource-dependency" content="images/sthanshaugen.jpg" data-resource-id="sthanshaugen" />
+  <meta name="ext-resource-dependency" content="images/strandgaten.jpg" data-resource-id="strandgaten" />
+  <meta name="ext-resource-dependency" content="images/vadsogata.jpg" data-resource-id="vadsogata" />
+  <meta name="ext-resource-dependency" content="images/vinkelgata.jpg" data-resource-id="vinkelgata" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <template id="__bundler_thumbnail" data-bg-color="#0f1115">
+    <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+      <rect x="150" y="50" width="900" height="700" rx="32" fill="#161a21" stroke="#2a313c" stroke-width="6"/>
+      <rect x="210" y="110" width="780" height="80" rx="10" fill="#e23b4e"/>
+      <rect x="210" y="610" width="780" height="80" rx="10" fill="#2f8f5b"/>
+      <rect x="210" y="210" width="80" height="380" rx="10" fill="#3a6ea5"/>
+      <rect x="910" y="210" width="80" height="380" rx="10" fill="#d8a13a"/>
+      <text x="600" y="430" font-family="'Space Grotesk',sans-serif" font-size="120" font-weight="700" fill="#f4f5f7" text-anchor="middle">VARD&#216;</text>
+    </svg>
+  </template>
+
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- web component for user-fillable images -->
+  <script src="image-slot.js"></script>
+
+  <!-- React + Babel (pinned) -->
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+  <script src="data.js"></script>
+  <script type="text/babel" src="tiles.jsx"></script>
+  <script type="text/babel" src="modal.jsx"></script>
+  <script type="text/babel" src="app.jsx"></script>
+</body>
+</html>
