@@ -13,6 +13,7 @@ Vardø Monopoly er et prosjekt jeg har jobbet med, med en **frontend** bygget i 
 
 - **Hele frontenden er 100 % «vibe codet».**
 - **Backenden er ~90 % kodet for hånd og ~10 % med AI.**
+- **Alle kommentarer i koden er skrevet av AI.**
 
 ## Frontend
 
